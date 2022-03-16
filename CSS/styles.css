@@ -1,0 +1,267 @@
+body {
+background-color: black;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+
+  margin: 20px auto 0 auto;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #66BFBF;
+}
+
+h2 {
+font-family: 'Source Code Pro', monospace;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+  margin: 10px ;
+}
+
+h3 {
+  font-family: 'Source Code Pro', monospace;
+  color: #11999E;
+  font-size: 2rem;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+}
+
+hr {
+  border: dotted 6px;
+  Color: lightgrey;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto
+
+}
+
+/* nav bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Source Code Pro', monospace;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* end of nav bar */
+
+
+/* Hero section */
+
+.top-container {
+  background-color: black;
+  position: relative;
+  padding-top: 100px;
+  width: 75vw;
+  margin: auto;
+}
+
+.shopify {
+  text-decoration: underline;
+}
+
+.eye  {
+  width: 100%;
+max-width: 500px;
+height: auto;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 5%;
+  bottom: 300px;
+}
+
+/* ABOUT ME */
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* skill rows */
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.coding {
+  width: 40%;
+  padding: 60px 0;
+  float: left;
+  margin-right: 30px;
+}
+
+.design {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.marketing {
+  width: 50%;
+  padding: 60px 0;
+  float: left;
+  margin-right: 30px;
+}
+
+/* Footer & contact me */
+
+#contact-me {
+
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 60vw;
+margin: auto;
+
+}
+
+
+
+
+
+    .footer-link{
+
+      padding: 20px;
+
+    }
+
+    /* Button */
+
+    .button {
+      margin: 50px;
+    }
+
+    .BUTTON_JHR {
+
+      background-color: #66BFBF;
+      padding: 10px 10px ;
+      margin: 10px;
+      border-radius: 20px;
+      color: black;
+      text-decoration: none;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 14px;
+      letter-spacing: 1px;
+
+    }
+
+
+    .BUTTON_JHR:hover {
+
+      background-color: #3D7272;
+    }
+
+
+
+
+/* Small screens for home screen */
+
+@media only screen and (max-width: 1000px) {
+
+  .design, .coding, .marketing {
+    width: 100%;
+    margin: 0;
+  }
+
+  .intro {
+    width: 60%;
+  }
+
+  .skill-row {
+    text-align: center;
+  }
+
+  .top-cloud {
+    display: none;
+  }
+
+
+}
+
+/* For projects.html page */
+
+.card-text {
+  color: black;
+}
+
+.card-title {
+
+  font-family: 'Source Code Pro', monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+    margin: 10px ;
+
+}
+
+.card-img-top {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .5s ease-in-out;
+    }
+
+    .card-img-top:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+
+    .project-cloud {
+      position: absolute;
+      top: 70px;
+      left: 80px;
+      z-index: 1;
+    }
