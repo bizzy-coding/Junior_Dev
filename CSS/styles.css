@@ -254,6 +254,12 @@ p.card-text {
   margin-bottom: 20px;
 }
 
+h5.card-title {
+  min-height: 100px;
+  display: grid;
+  place-content: center;
+}
+
 .card-img-top {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
       filter: gray; /* IE5+ */
