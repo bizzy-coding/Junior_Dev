@@ -1,7 +1,7 @@
 # Laura_Bizzle
 
-This is my first ever Junior Developer Portfolio 
+This is my first ever Junior Developer Portfolio created in 2022.
 
 It was created using HTML, CSS and bootstrap 
 
-Here I will share my latest projects 
+My next portfolio is currently under construction!
